@@ -6,7 +6,7 @@
 
 ### Strategy Pattern
 
-Ya que el sistema debe de permitir aplicar diferentes tipos de descuentos a los pedidos, dependiendo del tipo de cliente o de promociones especiales, pueden agregarse nuevas sin necesidad de modificar la lógica de cálculo del pedido.
+Ya que el sistema debe de permitir aplicar diferentes tipos de descuentos a los pedidos, dependiendo del tipo de cliente o de promociones especiales, pueden agregarse nuevas sin necesidad de modificar la lógica y queda delegada a otro sector del codigo para su ejecucion y control.
 
 **Aplicado en:**
 
@@ -18,7 +18,7 @@ ___
 
 ### Builder Pattern
 
-Los pedidos son personalizables y pueden contener múltiples combinaciones de platos, bebidas, acompañamientos y extras. Además, algunos de estos elementos son obligatorios y otros opcionales.
+Los pedidos son personalizables y pueden existir múltiples combinaciones de platos, bebidas, acompañamientos y extras, ademas que algunos de estos elementos son obligatorios y otros opcionales.
 
 **Aplicado en:**
 
