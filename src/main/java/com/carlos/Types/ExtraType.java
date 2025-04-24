@@ -1,4 +1,4 @@
-package com.carlos;
+package com.carlos.Types;
 
 public enum ExtraType {
     PAN("Pan"),

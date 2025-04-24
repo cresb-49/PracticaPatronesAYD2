@@ -1,25 +1,21 @@
-package com.carlos;
+package com.carlos.Types;
 
-public enum BebidaType {
-    AGUA("Agua"),
-    JUGO("Jugo"),
-    REFRESCO("Refresco"),
-    CERVEZA("Cerveza"),
-    VINO("Vino");
+public enum PlatoType {
+    SOPA("Sopa"),
+    ENSALADA("Ensalada"),
+    PASTA("Pasta"),
+    CARNE("Carne"),
+    PESCADO("Pescado");
 
     private String nombre;
-
-    BebidaType(String nombre) {
+    PlatoType(String nombre) {
         this.nombre = nombre;
     }
-
     public String getNombre() {
         return nombre;
     }
-
     @Override
     public String toString() {
         return nombre;
     }
-    
 }

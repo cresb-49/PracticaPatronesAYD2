@@ -1,14 +1,19 @@
-package com.carlos;
+package com.carlos.Models;
 
 import java.util.List;
 
-public class Orden {
+import com.carlos.Types.AddType;
+import com.carlos.Types.BebidaType;
+import com.carlos.Types.ExtraType;
+import com.carlos.Types.PlatoType;
+
+public class Order {
     private PlatoType plato;
     private AddType acompañamiento;
     private BebidaType bebida;
     private List<ExtraType> extras;
 
-    public Orden(){
+    public Order(){
         this.extras = List.of();
     }
 
